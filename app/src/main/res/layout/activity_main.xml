@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tushar.myapp.MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/ID_Welcome"
+        android:layout_width="384dp"
+        android:layout_height="391dp"
+        android:background="@drawable/welcome"
+        tools:layout_editor_absoluteY="120dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Vehicle Number Plate Recognition"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+
+</android.support.constraint.ConstraintLayout>
